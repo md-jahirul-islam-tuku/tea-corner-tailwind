@@ -13,12 +13,6 @@
   <script src="https://kit.fontawesome.com/21de3a4f2a.js" crossorigin="anonymous"></script>
   <!-- tailwind css cdn -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -31,16 +25,35 @@
     }
   </script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline **text-clifford**">
-    Hello world!
-  </h1>
-</body>
-</html>
-</head>
 
-<body>
-
+<body class="p-5">
+  <!-- header section -->
+  <header class="flex flex-col lg:flex-row items-center justify-between max-w-screen-xl mx-auto my-16">
+    <!-- header content -->
+    <div class="w-full lg:w-1/2 text-center lg:text-left mb-16 lg:mb-0">
+      <h1 class="text-5xl md:text-7xl font-bold">It's good<br>
+        tea time at The<br>Tea House</h1>
+      <p class="text-gray-600 my-7">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste
+        Buds.</p>
+      <button class="bg-gradient-to-l from-red-600 to-orange-400 px-5 py-4 rounded-lg text-white font-semibold">Explore
+        More <i class="fa fa-arrow-right -rotate-45"></i></button>
+    </div>
+    <!-- header image -->
+    <div class="relative w-full md:w-1/2">
+      <div>
+        <img src="images/banner.png" alt="">
+      </div>
+      <div class="flex items-center py-5 px-7 shadow-xl rounded-lg absolute left-2 bottom-0 lg:left-32 lg:bottom-3 bg-white">
+        <div class="pr-3">
+          <i class="fa-solid fa-star text-3xl text-yellow-400"></i>
+        </div>
+        <div>
+          <h2 class="text-2xl font-semibold">5.00</h2>
+          <p class="text-sm text-gray-600">Trust Pilot Ratings</p>
+        </div>
+      </div>
+    </div>
+  </header>
 </body>
 
 </html>
